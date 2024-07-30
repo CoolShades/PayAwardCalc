@@ -11,8 +11,6 @@ st.title("Pay Award Calculator for Doctors and Dentists in training in England")
 st.subheader("This interactive Python app was made from the math originally done by DV's *Mr. Milo Kostusiak*.")
 
 st.write("This calculator will give you an estimated pay award backpayment, it may not be 100% correct but will give you a chance to compare it to your payslip. If there are big discrepancies, you should raise it with your employer.")
-st.write("The LTFT function is still in testing. It is likely to overestimate backpay.")
-st.write("If you are LTFT, I would recommend using https://bit.ly/LTFT_PayAwardCalculator")
 
 st.write("Pull requests are welcome on the Github Repo.")
 
