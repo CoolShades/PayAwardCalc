@@ -43,16 +43,16 @@ flex_options = {
 
 
 grade_options1 = {
-    'FY1': 29384,
-    'FY2': 34012,
-    'ST1': 40257,
-    'ST2': 40257,
-    'ST3': 51017,
-    'ST4': 51017,
-    'ST5': 51017,
-    'ST6': 58398,
-    'ST7': 58398,
-    'ST8': 58398,
+    'FY1': 36616,
+    'FY2': 42008,
+    'ST1': 49909,
+    'ST2': 49909,
+    'ST3': 61825,
+    'ST4': 61825,
+    'ST5': 61825,
+    'ST6': 70425,
+    'ST7': 70425,
+    'ST8': 70425,
 }
 
 # Column 1: Data Entry
@@ -84,7 +84,7 @@ with col1:
     data6_calc = (flex_options[data6])
     total_1 = data1 + data2_calc + data3_calc + data4_calc + data5_calc + data6_calc
 
-    data1_waward = (data1*1.06)+(1250*ltft)
+    data1_waward = (data1*1.06)+(1000*ltft)
     data2_waward = (data2*((data1_waward/52)/40))*52
     data3_waward = (nroc_options[data3]/100)*data1_waward
     data4_waward = (wknd_options[data4]/100)*data1_waward
@@ -145,7 +145,7 @@ with col2:
     data12_calc = (flex_options[data12])
     total_2 = data7 + data8_calc + data9_calc + data10_calc + data11_calc + data12_calc
 
-    data7_waward = (data7*1.06)+(1250*ltft2)
+    data7_waward = (data7*1.06)+(1000*ltft2)
     data8_waward = (data8*((data7_waward/52)/40))*52
     data9_waward = (nroc_options[data9]/100)*data7_waward
     data10_waward = (wknd_options[data10]/100)*data7_waward
